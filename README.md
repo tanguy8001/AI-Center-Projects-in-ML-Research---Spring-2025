@@ -13,7 +13,7 @@ ETH Zurich's Department of Computer Science (D-INFK) offers a dedicated student 
 5. **[Accessing GPUs: Running a Batch of Jobs Using `sbatch`](#5-accessing-gpus-running-a-batch-of-jobs-using-sbatch)**
 6. **[Accessing GPUs: Monitoring Jobs](#6-accessing-gpus-monitoring-jobs)**
 7. **[Storage Options](#7-storage-options)**
-8. **Usual Issues**
+8. **[Usual Issues](#8-usual-issues)**
 
 ## 1. Logging into the Cluster
 
