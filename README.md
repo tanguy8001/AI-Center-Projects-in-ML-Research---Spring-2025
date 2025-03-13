@@ -2,7 +2,8 @@
 
 [`AI Center Projects in Machine Learning Research Spring 2025`](https://vlg.inf.ethz.ch/teaching/Digital-Humans-FS-24.html) | `13.03.2025`
 
-ETH Zurich's Department of Computer Science (D-INFK) offers a dedicated student cluster equipped with GPUs for teaching purposes. Detailed guidance for utilizing the cluster is available in the help section [here](https://www.isg.inf.ethz.ch/Main/HelpClusterComputingStudentCluster).
+ETH Zurich's Department of Computer Science (D-INFK) offers a dedicated student cluster equipped with GPUs for teaching purposes. Detailed guidance for utilizing the cluster is available in the help section [here](https://www.isg.inf.ethz.ch/Main/HelpClusterComputingStudentCluster). Instead of individual logins, please use the ETH credentials of your team representative — the student whose ETH ID was submitted in the forms to receive access to GPU resources.
+
 
 ## Outline
 
@@ -17,7 +18,7 @@ ETH Zurich's Department of Computer Science (D-INFK) offers a dedicated student 
 
 ## 1. Logging into the Cluster
 
-To log in for the first time, execute the following command in your favorite terminal emulator, replacing `login_name` with your ETH username (the one in your `login_name@ethz.ch` email):
+To log in for the first time, execute the following command in your favorite terminal emulator, replacing `login_name` with the **ETH username of your team representative!!!** (the one in your `login_name@ethz.ch` email):
 
 ```bash
 ssh <login_name>@student-cluster.inf.ethz.ch
