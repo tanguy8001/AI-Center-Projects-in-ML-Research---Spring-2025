@@ -13,6 +13,7 @@ ETH Zurich's Department of Computer Science (D-INFK) offers a dedicated student 
 5. **[Accessing GPUs: Running a Batch of Jobs Using `sbatch`](#5-accessing-gpus-running-a-batch-of-jobs-using-sbatch)**
 6. **[Accessing GPUs: Monitoring Jobs](#6-accessing-gpus-monitoring-jobs)**
 7. **[Storage Options](#7-storage-options)**
+8. **Usual Issues**
 
 ## 1. Logging into the Cluster
 
@@ -114,3 +115,9 @@ To cancel a job, use its JOB_ID found via `squeue` and run `scancel JOBID` (e.g.
 Every individual user is provided 20GB of disk space in their home folder `/home/<login_name>`. The usage of the space is printed after logging in to the cluster, e.g., as `Your home has 1124MB free space of 20000MB total`. You can use your home folder to setup your environment (e.g., via conda), store your code, logs, and data.
 
 In case you need more space for downloading datasets, store large model checkpoints, etc., you can use your team's shared space in `/work/courses/pmlr/<group_ID>`. We have reserved 1TB of shared space for the course in total. Please be considerate with your space usage, e.g., using 40GB per team should be safe and feasible. If you need much more disk space, reach out to Tanguy.
+
+## 8. Usual Issues
+
+- Cannot suddenly SSH into the cluster from VSC? Make sure to be on the ETH/Eduoram network and check if your home directory isn’t full (`pip cache purge` or `conda clean --all` will help in this case).
+
+- If you are installing packages, cloning repos… make sure to first create a conda environment and run an interactive environment (otherwise some packages won’t detect the presence of CUDA which will cause issues in the installs). 
